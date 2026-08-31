@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/StartScreenStylesheet.uss?fileID=7433441132597879392&amp;guid=2202afb5cbe69d945b2b87458e4fbe28&amp;type=3#StartScreenStylesheet" />
+    <ui:VisualElement name="Screen" style="flex-grow: 1;">
+        <ui:VisualElement name="Menu" style="flex-grow: 1; justify-content: center; align-self: center; align-items: center; align-content: center;">
+            <ui:VisualElement name="BG_Menu" style="flex-grow: 1; background-color: rgb(255, 225, 150); align-self: center; justify-content: center; align-items: center; align-content: center; width: 1920px; height: 1080px;">
+                <ui:Label text="How Are You?" name="Lbl_Title" class="lable" style="font-size: 120px; top: -160px;" />
+                <ui:Label text="Uma experiência de feedback Arcos Dourados" name="Lbl_Subtitle" style="font-size: 60px; top: -80px;" />
+                <ui:Button text="Iniciar" name="Btn_Start" class="button" style="top: 50px;" />
+                <ui:Button text="Opções" name="Btn_Options" class="button" style="left: -450px; top: 190px;" />
+                <ui:Button text="Sair" name="Btn_Quit" class="button" style="left: 450px; top: 90px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
