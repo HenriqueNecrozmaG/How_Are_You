@@ -6,7 +6,7 @@
                 <ui:Label text="How Are You?" name="Lbl_Title" class="lable" style="font-size: 120px; top: -160px;" />
                 <ui:Label text="Uma experiência de feedback Arcos Dourados" name="Lbl_Subtitle" style="font-size: 60px; top: -80px;" />
                 <ui:Button text="Iniciar" name="Btn_Start" class="button" style="top: 50px;" />
-                <ui:Button text="Opções" name="Btn_Options" class="button" style="left: -450px; top: 190px;" />
+                <ui:Button text="Configurações" name="Btn_Configurations" class="button" style="left: -450px; top: 190px;" />
                 <ui:Button text="Sair" name="Btn_Quit" class="button" style="left: 450px; top: 90px;" />
             </ui:VisualElement>
         </ui:VisualElement>
