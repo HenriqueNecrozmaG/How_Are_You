@@ -1,9 +1,9 @@
-using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameUIManager : MonoBehaviour
+public class UIManager : MonoBehaviour
 {
+    [Header("UI Settings")]
     [SerializeField] private Canvas canvasGame;
     [SerializeField] private Canvas canvasPause;
     [SerializeField] private Canvas canvasConfigurations;

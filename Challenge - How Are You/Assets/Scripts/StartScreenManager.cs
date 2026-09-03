@@ -26,6 +26,7 @@ public class StartScreenManager : MonoBehaviour
 
     public void Btn_Start()
     {
+        Time.timeScale = 1.0f;
         SceneManager.LoadScene("GameScreen");
     }
 

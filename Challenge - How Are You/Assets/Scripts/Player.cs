@@ -5,6 +5,7 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
     [SerializeField] private InputActionReference moveAction;
+    [SerializeField] DialogueManager dialogueManager;
 
     private Rigidbody2D rb;
     private Vector2 moveInput;
@@ -32,6 +33,8 @@ public class Player : MonoBehaviour
 
     private void ApplyMovement()
     {
+        if (dialogueManager.dialoguePlaying) return;
+ 
         Vector2 move = transform.right * moveInput.x + transform.up * moveInput.y;
         Vector2 finalMove = move * moveSpeed;
         rb.linearVelocity = finalMove;
