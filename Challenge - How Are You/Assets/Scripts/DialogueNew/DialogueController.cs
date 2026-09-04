@@ -7,10 +7,13 @@ public class DialogueController : MonoBehaviour
 {
     public static DialogueController Instance { get; private set; }
 
+    [Header("Dialogue Canvas Config")]
     public Canvas dialogueCanvas;
     public TextMeshProUGUI collaboratorNameText;
     public TextMeshProUGUI dialogueText;
     public Image portraitImage;
+
+    [Header("Choices Config")]
     public Transform choiceContainer;
     public GameObject choiceButtonPrefab;
 

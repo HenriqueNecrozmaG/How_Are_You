@@ -7,11 +7,13 @@ using UnityEngine.Events;
 
 public class CollaboratorsNew : MonoBehaviour
 {
+    [Header("Dialogue Config")]
     [SerializeField] private NPCDialogue dialogueData;
     [SerializeField] private DialogueChoice dialogueChoices;
     [SerializeField] private InputActionReference interactAction;
     [SerializeField] private SpriteRenderer speechBubble;
 
+    [Header("Controller Buttons Config")]
     [SerializeField] private Button buttonUp;
     [SerializeField] private Button buttonDown;
     [SerializeField] private Button buttonLeft;
@@ -20,6 +22,9 @@ public class CollaboratorsNew : MonoBehaviour
     private DialogueController dialogueController;
     private int dialogueIndex;
     private bool isTyping, isDialogueActive, playerInRadius, interactQueued;
+
+    private enum  FirstInteractionState { NotInteracted, Interacted };
+    private static FirstInteractionState firstInteractionState = FirstInteractionState.NotInteracted;
 
     void Start()
     {
@@ -68,7 +73,15 @@ public class CollaboratorsNew : MonoBehaviour
     void StartDialogue()
     {
         isDialogueActive = true;
-        dialogueIndex = 0;
+        
+        if (firstInteractionState == FirstInteractionState.NotInteracted)
+        {
+            dialogueIndex = 0;
+        }
+        else
+        {
+            dialogueIndex = dialogueData.firstInteractionCompleteIndex;
+        }
 
         dialogueController.SetNPCInfo(dialogueData.npcName, dialogueData.npcPortait);
         dialogueController.ShowDialogueUI(true);
@@ -163,14 +176,22 @@ public class CollaboratorsNew : MonoBehaviour
     public void EndDialogue()
     {
         StopAllCoroutines();
+        
         isDialogueActive = false;
         dialogueController.SetDialogueText("");
         dialogueController.ShowDialogueUI(false);
+        
         Player.isDialoguePlaying = false;
+        
         buttonUp.interactable = true;
         buttonDown.interactable = true;
         buttonLeft.interactable = true;
         buttonRight.interactable = true;
+
+        if (firstInteractionState == FirstInteractionState.NotInteracted)
+        {
+            firstInteractionState = FirstInteractionState.Interacted;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

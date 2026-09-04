@@ -3,6 +3,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NPCDialogue", menuName = "NPCDialogue")]
 public class NPCDialogue : ScriptableObject
 {
+    [Header("Dialogue Config")]
     public string npcName;
     public Sprite npcPortait;
     public string[] dialogueLines;
@@ -11,8 +12,10 @@ public class NPCDialogue : ScriptableObject
     public float autoProgressDelay = 1.5f;
     public float typingSpeed = 0.05f;
 
+    [Header("Choices Config")]
     public DialogueChoice[] choices;
 
+    [Header("First Interaction Config")]
     public int firstInteractionCompleteIndex;
 }
 
