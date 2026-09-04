@@ -5,10 +5,10 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
     [SerializeField] private InputActionReference moveAction;
-    [SerializeField] DialogueManager dialogueManager;
 
     private Rigidbody2D rb;
     private Vector2 moveInput;
+    public static bool isDialoguePlaying;
 
     void Awake()
     {
@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        
+        isDialoguePlaying = false;
     }
     
     void Update()
@@ -33,7 +33,8 @@ public class Player : MonoBehaviour
 
     private void ApplyMovement()
     {
-        if (dialogueManager.dialoguePlaying) return;
+        //if (dialogueManager.dialoguePlaying) return;
+        if (isDialoguePlaying) return;
  
         Vector2 move = transform.right * moveInput.x + transform.up * moveInput.y;
         Vector2 finalMove = move * moveSpeed;
