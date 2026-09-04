@@ -11,31 +11,18 @@ public class StartScreenManager : MonoBehaviour
         canvasConfigurations.enabled = false;
     }
 
-    void OnEnable()
-    {
-        VisualElement root = GetComponent<UIDocument>().rootVisualElement;
-
-        Button buttonStart = root.Q<Button>("Btn_Start");
-        Button buttonConfigurations = root.Q<Button>("Btn_Configurations");
-        Button buttonQuit = root.Q<Button>("Btn_Quit");
-
-        buttonStart.clicked += () => Btn_Start();
-        buttonConfigurations.clicked += () => Btn_Configurations();
-        buttonQuit.clicked += () => Btn_Quit();
-    }
-
-    public void Btn_Start()
+    public void Play()
     {
         Time.timeScale = 1.0f;
         SceneManager.LoadScene("GameScreen");
     }
 
-    public void Btn_Configurations()
+    public void Configurations()
     {
         canvasConfigurations.enabled = true;
     }
 
-    public void Btn_Quit()
+    public void Quit()
     {
         Application.Quit();
     }

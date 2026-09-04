@@ -11,13 +11,13 @@ public class CollaboratorsNew : MonoBehaviour
     [SerializeField] private NPCDialogue dialogueData;
     [SerializeField] private DialogueChoice dialogueChoices;
     [SerializeField] private InputActionReference interactAction;
-    [SerializeField] private SpriteRenderer speechBubble;
+    [SerializeField] private GameObject speechBubble;
 
     [Header("Controller Buttons Config")]
-    [SerializeField] private Button buttonUp;
-    [SerializeField] private Button buttonDown;
-    [SerializeField] private Button buttonLeft;
-    [SerializeField] private Button buttonRight;
+    [SerializeField] private GameObject buttonUp;
+    [SerializeField] private GameObject buttonDown;
+    [SerializeField] private GameObject buttonLeft;
+    [SerializeField] private GameObject buttonRight;
 
     private DialogueController dialogueController;
     private int dialogueIndex;
@@ -31,7 +31,7 @@ public class CollaboratorsNew : MonoBehaviour
     {
         dialogueController = DialogueController.Instance;
 
-        speechBubble.enabled = false;
+        speechBubble.gameObject.SetActive(false);
         dialogueController.ShowDialogueUI(false);
     }
 
@@ -90,10 +90,10 @@ public class CollaboratorsNew : MonoBehaviour
         dialogueController.ShowDialogueUI(true);
 
         Player.isDialoguePlaying = true;
-        buttonUp.interactable = false;
-        buttonDown.interactable = false;
-        buttonLeft.interactable = false;
-        buttonRight.interactable = false;
+        buttonUp.gameObject.SetActive(false);
+        buttonDown.gameObject.SetActive(false);
+        buttonLeft.gameObject.SetActive(false);
+        buttonRight.gameObject.SetActive(false);
 
         DisplayCurrentLine();
     }
@@ -210,10 +210,10 @@ public class CollaboratorsNew : MonoBehaviour
         
         Player.isDialoguePlaying = false;
         
-        buttonUp.interactable = true;
-        buttonDown.interactable = true;
-        buttonLeft.interactable = true;
-        buttonRight.interactable = true;
+        buttonUp.gameObject.SetActive(true);
+        buttonDown.gameObject.SetActive(true);
+        buttonLeft.gameObject.SetActive(true);
+        buttonRight.gameObject.SetActive(true);
 
         if (firstInteractionState == FirstInteractionState.NotInteracted)
         {
@@ -226,7 +226,7 @@ public class CollaboratorsNew : MonoBehaviour
         if (collision.tag == "Player")
         {
             playerInRadius = true;
-            speechBubble.enabled = true;
+            speechBubble.gameObject.SetActive(true);
         }
     }
 
@@ -235,7 +235,7 @@ public class CollaboratorsNew : MonoBehaviour
         if (collision.tag == "Player")
         {
             playerInRadius = false;
-            speechBubble.enabled = false;
+            speechBubble.gameObject.SetActive(false);
         }
     }
 }

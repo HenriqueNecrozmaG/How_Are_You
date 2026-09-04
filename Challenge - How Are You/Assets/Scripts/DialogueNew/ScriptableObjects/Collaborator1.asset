@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Collaborator1
   m_EditorClassIdentifier: 
   npcName: Raissa
-  npcPortait: {fileID: 21300000, guid: 611e7501e9be05742a6528c1e5653069, type: 3}
+  npcPortait: {fileID: 180713331, guid: e4e939f01a6e6874ca5c93d27f6aca96, type: 3}
   dialogueLines:
   - "Ol\xE1! Voc\xEA deve ser o novo colaborador n\xE3o \xE9?"
   - "Meu nome \xE9 Raissa, \xE9 um prazer conhec\xEA-lo!"
