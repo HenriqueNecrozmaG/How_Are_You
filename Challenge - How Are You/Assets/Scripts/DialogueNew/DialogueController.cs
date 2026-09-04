@@ -17,10 +17,16 @@ public class DialogueController : MonoBehaviour
     public Transform choiceContainer;
     public GameObject choiceButtonPrefab;
 
+    [Header("Text Input Config")]
+    public GameObject textInputPanel;
+    public TMP_InputField textInputField;
+    public Button textInputSubmitButton;
+
     void Awake()
     {
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
+        textInputPanel.SetActive(false);
     }
 
     public void ShowDialogueUI(bool show)
@@ -49,5 +55,21 @@ public class DialogueController : MonoBehaviour
         GameObject choiceButton = Instantiate(choiceButtonPrefab, choiceContainer);
         choiceButton.GetComponentInChildren<TextMeshProUGUI>().text = choiceText;
         choiceButton.GetComponent<Button>().onClick.AddListener(onClick);
+    }
+
+    public void ShowTextInput(UnityAction<string> onSubmit)
+    {
+        textInputPanel.SetActive(true);
+        textInputField.text = "";
+        textInputField.Select();
+        textInputField.ActivateInputField();
+
+        textInputSubmitButton.onClick.RemoveAllListeners();
+        textInputSubmitButton.onClick.AddListener(() =>
+        {
+            string enteredText = textInputField.text;
+            textInputPanel.SetActive(false);
+            onSubmit(enteredText);
+        });
     }
 }

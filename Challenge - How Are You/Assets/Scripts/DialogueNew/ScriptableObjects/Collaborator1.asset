@@ -35,19 +35,23 @@ MonoBehaviour:
     choices:
     - "Tamb\xE9m \xE9 um prazer Raissa!"
     nextDialogueIndexes: 02000000
+    requiresTextInput: 
   - dialogueIndex: 3
     choices:
     - Bem
     - "N\xE3o muito bem"
     nextDialogueIndexes: 0400000007000000
+    requiresTextInput: 
   - dialogueIndex: 4
     choices:
     - Sim
     - "N\xE3o"
     nextDialogueIndexes: 0500000006000000
+    requiresTextInput: 0100
   - dialogueIndex: 7
     choices:
     - Sim
     - "N\xE3o"
     nextDialogueIndexes: 0800000009000000
+    requiresTextInput: 0100
   firstInteractionCompleteIndex: 3

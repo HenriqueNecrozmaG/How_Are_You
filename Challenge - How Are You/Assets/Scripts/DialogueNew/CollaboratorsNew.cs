@@ -21,7 +21,8 @@ public class CollaboratorsNew : MonoBehaviour
 
     private DialogueController dialogueController;
     private int dialogueIndex;
-    private bool isTyping, isDialogueActive, playerInRadius, interactQueued;
+    private bool isTyping, isDialogueActive, playerInRadius, interactQueued, isWaitingForTextInput;
+    public static string lastPlayerInput = "";
 
     private enum  FirstInteractionState { NotInteracted, Interacted };
     private static FirstInteractionState firstInteractionState = FirstInteractionState.NotInteracted;
@@ -54,6 +55,8 @@ public class CollaboratorsNew : MonoBehaviour
         interactQueued = false;
 
         if (!playerInRadius) return;
+
+        if (isWaitingForTextInput) return;
 
         if (dialogueData == null)
         {
@@ -156,8 +159,32 @@ public class CollaboratorsNew : MonoBehaviour
         for (int i = 0; i < choice.choices.Length; i++)
         {
             int nextIndex = choice.nextDialogueIndexes[i];
-            dialogueController.CreateChoiceButton(choice.choices[i], () => ChooseOption(nextIndex));
+            bool needsInput = choice.requiresTextInput != null
+                && choice.requiresTextInput.Length > i
+                && choice.requiresTextInput[i];
+
+            if (needsInput)
+            {
+                dialogueController.CreateChoiceButton(choice.choices[i], () => RequestTextInput(nextIndex));
+            }
+            else
+            {
+                dialogueController.CreateChoiceButton(choice.choices[i], () => ChooseOption(nextIndex));
+            }
         }
+    }
+
+    void RequestTextInput(int nextIndex)
+    {
+        dialogueController.ClearChoices();
+        isWaitingForTextInput = true;
+
+        dialogueController.ShowTextInput((enteredText) =>
+        {
+            lastPlayerInput = enteredText;
+            isWaitingForTextInput = false;
+            ChooseOption(nextIndex);
+        });
     }
 
     void ChooseOption(int nextIndex)
