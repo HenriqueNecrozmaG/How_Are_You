@@ -12,8 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/GameScreen.unity
     guid: 97c2689e963ae2441b5131decc9a7c90
   - enabled: 1
-    path: Assets/Scenes/MinigameScreen.unity
-    guid: c47a2e6a4162aab4b99e9ebfeab0a64c
+    path: Assets/Minigame/Scenes/MinigameScene.unity
+    guid: bb763233609f3664ca66857d499eef85
+  - enabled: 1
+    path: Assets/Minigame/Scenes/ResultsScene.unity
+    guid: b5631c113fe5827438ff60f63b7f5896
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
