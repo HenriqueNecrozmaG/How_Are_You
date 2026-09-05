@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "604593995036",
+    "firebase_url": "https://challenge---how-are-you-default-rtdb.firebaseio.com",
+    "project_id": "challenge---how-are-you",
+    "storage_bucket": "challenge---how-are-you.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604593995036:android:a16e3ba62258b26e8b0ed9",
+        "android_client_info": {
+          "package_name": "com.belugagames.howareyou"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOfNE5S_sVu5jgegygaz8wj5dbddq38Tc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
