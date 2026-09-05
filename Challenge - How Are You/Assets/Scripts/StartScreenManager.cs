@@ -5,10 +5,12 @@ using UnityEngine.UIElements;
 public class StartScreenManager : MonoBehaviour
 {
     [SerializeField] private Canvas canvasConfigurations;
+    [SerializeField] private Canvas canvasControls;
 
     void Start()
     {
         canvasConfigurations.enabled = false;
+        canvasControls.enabled = false;
     }
 
     public void Play()
@@ -30,5 +32,15 @@ public class StartScreenManager : MonoBehaviour
     public void CloseConfigurations()
     {
         canvasConfigurations.enabled = false;
+    }
+
+    public void Controls()
+    {
+        canvasControls.enabled = true;
+    }
+
+    public void CloseControls()
+    {
+        canvasControls.enabled = false;
     }
 }
