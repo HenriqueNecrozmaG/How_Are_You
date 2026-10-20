@@ -28,7 +28,7 @@ public class MinigameLoader : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            canvasLoadMinigame.enabled = true;
+            canvasLoadMinigame.enabled = false;
         }
     }
 }
