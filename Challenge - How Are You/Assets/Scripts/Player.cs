@@ -9,11 +9,15 @@ public class Player : MonoBehaviour
 
     private Rigidbody2D rb;
     private Vector2 moveInput;
+    private Animator anim;
+
+    private Vector2 finalMove;
     public static bool isDialoguePlaying;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Start()
@@ -25,6 +29,7 @@ public class Player : MonoBehaviour
     {
         ReadInput();
         ApplyMovement();
+        Animate();
     }
 
     private void ReadInput()
@@ -37,14 +42,23 @@ public class Player : MonoBehaviour
         //if (dialogueManager.dialoguePlaying) return;
         if (isDialoguePlaying) return;
  
-        Vector2 move = transform.right * moveInput.x + transform.up * moveInput.y;
-        Vector2 finalMove = move * moveSpeed;
+        Vector2 move = new Vector2(moveInput.x, moveInput.y);
+        finalMove = move * moveSpeed;
         rb.linearVelocity = finalMove;
+
+        if (finalMove.x < 0)
+        {
+            transform.eulerAngles = new Vector3(0, 180, 0);
+        }
+        else if (finalMove.x > 0)
+        {
+            transform.eulerAngles = new Vector3(0, 0, 0);
+        }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void Animate()
     {
-        moveInput.x = 0;
-        moveInput.y = 0;
+        anim.SetInteger("pMoveX", (int)finalMove.x);
+        anim.SetInteger("pMoveY", (int)finalMove.y);
     }
 }

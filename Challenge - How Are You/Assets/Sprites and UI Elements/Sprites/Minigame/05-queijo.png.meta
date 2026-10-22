@@ -1,0 +1,1495 @@
+fileFormatVersion: 2
+guid: 5c932675ee9ad794e884ab2bf98c52c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6893315896158965386
+    second: 05-queijo_0
+  - first:
+      213: 1195863113791004290
+    second: 05-queijo_1
+  - first:
+      213: 5157419354154236599
+    second: 05-queijo_2
+  - first:
+      213: 2907167383817560871
+    second: 05-queijo_3
+  - first:
+      213: -1763380851541515164
+    second: 05-queijo_4
+  - first:
+      213: 7085347878179556164
+    second: 05-queijo_5
+  - first:
+      213: -3047779235235264341
+    second: 05-queijo_6
+  - first:
+      213: 6418487353759080130
+    second: 05-queijo_7
+  - first:
+      213: 5793263016005669705
+    second: 05-queijo_8
+  - first:
+      213: -475492559183444333
+    second: 05-queijo_9
+  - first:
+      213: 742863037524188150
+    second: 05-queijo_10
+  - first:
+      213: -554412154614317891
+    second: 05-queijo_11
+  - first:
+      213: -1600126538896363457
+    second: 05-queijo_12
+  - first:
+      213: -5101905408163829462
+    second: 05-queijo_13
+  - first:
+      213: 4370040299648716375
+    second: 05-queijo_14
+  - first:
+      213: 3998590638759633277
+    second: 05-queijo_15
+  - first:
+      213: 4133297012529897761
+    second: 05-queijo_16
+  - first:
+      213: -8902455772304264675
+    second: 05-queijo_17
+  - first:
+      213: 1596536290295886687
+    second: 05-queijo_18
+  - first:
+      213: -6263994286155394171
+    second: 05-queijo_19
+  - first:
+      213: 3192029292545765555
+    second: 05-queijo_20
+  - first:
+      213: 7252254796908626482
+    second: 05-queijo_21
+  - first:
+      213: 5816862748685972355
+    second: 05-queijo_22
+  - first:
+      213: 4342029076911374010
+    second: 05-queijo_23
+  - first:
+      213: 1179755821368960012
+    second: 05-queijo_24
+  - first:
+      213: 126285092488077098
+    second: 05-queijo_25
+  - first:
+      213: 5689520464096150313
+    second: 05-queijo_26
+  - first:
+      213: -1146198901796145372
+    second: 05-queijo_27
+  - first:
+      213: -2207348061972333988
+    second: 05-queijo_28
+  - first:
+      213: 7231869406668182074
+    second: 05-queijo_29
+  - first:
+      213: -1364720175132999016
+    second: 05-queijo_30
+  - first:
+      213: -8560392025659158251
+    second: 05-queijo_31
+  - first:
+      213: -5750340892938832850
+    second: 05-queijo_32
+  - first:
+      213: 7610030181167043084
+    second: 05-queijo_33
+  - first:
+      213: -8571116908627997981
+    second: 05-queijo_34
+  - first:
+      213: 3602521891661020219
+    second: 05-queijo_35
+  - first:
+      213: 3704497385255258098
+    second: 05-queijo_36
+  - first:
+      213: -3658712542587760260
+    second: 05-queijo_37
+  - first:
+      213: 4990011983812576694
+    second: 05-queijo_38
+  - first:
+      213: -395845912254188052
+    second: 05-queijo_39
+  - first:
+      213: -532770292233801693
+    second: 05-queijo_40
+  - first:
+      213: 2586243617033870258
+    second: 05-queijo_41
+  - first:
+      213: -9016044398446334382
+    second: 05-queijo_42
+  - first:
+      213: 6811272083451840570
+    second: 05-queijo_43
+  - first:
+      213: -7726805218577800906
+    second: 05-queijo_44
+  - first:
+      213: 9193507977139356340
+    second: 05-queijo_45
+  - first:
+      213: -1822965352766848351
+    second: 05-queijo_46
+  - first:
+      213: 8971037662322928517
+    second: 05-queijo_47
+  - first:
+      213: -5234776361457304088
+    second: 05-queijo_48
+  - first:
+      213: 6857386098442324875
+    second: 05-queijo_49
+  - first:
+      213: -5782864521063820665
+    second: 05-queijo_50
+  - first:
+      213: 2394195352017430105
+    second: 05-queijo_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 05-queijo_0
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1217
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ecb13094af9af50800000000000000
+      internalID: 6893315896158965386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1221
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e51818a2f889010800000000000000
+      internalID: 1195863113791004290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_2
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1209
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba7612d395d29740800000000000000
+      internalID: 5157419354154236599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_3
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1169
+        width: 121
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7232c0f2555585820800000000000000
+      internalID: 2907167383817560871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_4
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1205
+        width: 58
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464642455763787e0800000000000000
+      internalID: -1763380851541515164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_5
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 1226
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44bc5fcfa56345260800000000000000
+      internalID: 7085347878179556164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_6
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1222
+        width: 49
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba88df1feec14b5d0800000000000000
+      internalID: -3047779235235264341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_7
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1229
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce952cdd3c031950800000000000000
+      internalID: 6418487353759080130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_8
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1213
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9431d6fd40ec56050800000000000000
+      internalID: 5793263016005669705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_9
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1205
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39687846906b669f0800000000000000
+      internalID: -475492559183444333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_10
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1215
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb956c2ffd2f4a00800000000000000
+      internalID: 742863037524188150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_11
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1205
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbcfd0135155e48f0800000000000000
+      internalID: -554412154614317891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_12
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1162
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30386504653bc9e0800000000000000
+      internalID: -1600126538896363457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_13
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1212
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2920c4ff046239b0800000000000000
+      internalID: -5101905408163829462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_14
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1214
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e04b2cf7085ac30800000000000000
+      internalID: 4370040299648716375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_15
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1211
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7168712009dd7730800000000000000
+      internalID: 3998590638759633277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_16
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1179
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1212707dbbb6c5930800000000000000
+      internalID: 4133297012529897761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_17
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1189
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12bd2f64af147480800000000000000
+      internalID: -8902455772304264675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_18
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1171
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f533b161c49082610800000000000000
+      internalID: 1596536290295886687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_19
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1199
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58391a28262d119a0800000000000000
+      internalID: -6263994286155394171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_20
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1187
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0f4debabd5c4c20800000000000000
+      internalID: 3192029292545765555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_21
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1196
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2328c5e405f25a460800000000000000
+      internalID: 7252254796908626482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_22
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1184
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38331a2d9d5a9b050800000000000000
+      internalID: 5816862748685972355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_23
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1160
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe38bdb07cf14c30800000000000000
+      internalID: 4342029076911374010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_24
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1173
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04656e3ba55f5010800000000000000
+      internalID: 1179755821368960012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_25
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1176
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2fdd2e5f97a0c100800000000000000
+      internalID: 126285092488077098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_26
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1185
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92344ccb7bc35fe40800000000000000
+      internalID: 5689520464096150313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_27
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1175
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4277f70fb22e710f0800000000000000
+      internalID: -1146198901796145372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_28
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1136
+        width: 67
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5afd76f1aced51e0800000000000000
+      internalID: -2207348061972333988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_29
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1171
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32d876c8e2cc5460800000000000000
+      internalID: 7231869406668182074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1193
+        height: 1167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89283673b3a8f0de0800000000000000
+      internalID: -1364720175132999016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_31
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1142
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511df7cbec0633980800000000000000
+      internalID: -8560392025659158251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_32
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1140
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e247afaac6fa230b0800000000000000
+      internalID: -5750340892938832850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_33
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1154
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02967e41224c9960800000000000000
+      internalID: 7610030181167043084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_34
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1145
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea42e455964d0980800000000000000
+      internalID: -8571116908627997981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_35
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1148
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3cf500d29abef130800000000000000
+      internalID: 3602521891661020219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_36
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1156
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7c08f9eb4096330800000000000000
+      internalID: 3704497385255258098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_37
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1133
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c715ac3c354a93dc0800000000000000
+      internalID: -3658712542587760260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_38
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1132
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b547180675104540800000000000000
+      internalID: 4990011983812576694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_39
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1132
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce57c467d3ca18af0800000000000000
+      internalID: -395845912254188052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_40
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1130
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320f580fd383b98f0800000000000000
+      internalID: -532770292233801693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_41
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 85
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bbdceffdde24e320800000000000000
+      internalID: 2586243617033870258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_42
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 93
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ea47f736390e280800000000000000
+      internalID: -9016044398446334382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_43
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 57
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a388eaa4fdf768e50800000000000000
+      internalID: 6811272083451840570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_44
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 45
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6312902979fd4c490800000000000000
+      internalID: -7726805218577800906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_45
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 45
+        width: 41
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b28c11cbc6e59f70800000000000000
+      internalID: 9193507977139356340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_46
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 37
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2cc7e8ba683b6e0800000000000000
+      internalID: -1822965352766848351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_47
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 52
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ba86929378f7c70800000000000000
+      internalID: 8971037662322928517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_48
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 39
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8edb9b062a65a57b0800000000000000
+      internalID: -5234776361457304088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_49
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 21
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b4b5513545a2f50800000000000000
+      internalID: 6857386098442324875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_50
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 15
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78218c56b532fbfa0800000000000000
+      internalID: -5782864521063820665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 05-queijo_51
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 7
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956e3e7dcf3e93120800000000000000
+      internalID: 2394195352017430105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      05-queijo_0: 6893315896158965386
+      05-queijo_1: 1195863113791004290
+      05-queijo_10: 742863037524188150
+      05-queijo_11: -554412154614317891
+      05-queijo_12: -1600126538896363457
+      05-queijo_13: -5101905408163829462
+      05-queijo_14: 4370040299648716375
+      05-queijo_15: 3998590638759633277
+      05-queijo_16: 4133297012529897761
+      05-queijo_17: -8902455772304264675
+      05-queijo_18: 1596536290295886687
+      05-queijo_19: -6263994286155394171
+      05-queijo_2: 5157419354154236599
+      05-queijo_20: 3192029292545765555
+      05-queijo_21: 7252254796908626482
+      05-queijo_22: 5816862748685972355
+      05-queijo_23: 4342029076911374010
+      05-queijo_24: 1179755821368960012
+      05-queijo_25: 126285092488077098
+      05-queijo_26: 5689520464096150313
+      05-queijo_27: -1146198901796145372
+      05-queijo_28: -2207348061972333988
+      05-queijo_29: 7231869406668182074
+      05-queijo_3: 2907167383817560871
+      05-queijo_30: -1364720175132999016
+      05-queijo_31: -8560392025659158251
+      05-queijo_32: -5750340892938832850
+      05-queijo_33: 7610030181167043084
+      05-queijo_34: -8571116908627997981
+      05-queijo_35: 3602521891661020219
+      05-queijo_36: 3704497385255258098
+      05-queijo_37: -3658712542587760260
+      05-queijo_38: 4990011983812576694
+      05-queijo_39: -395845912254188052
+      05-queijo_4: -1763380851541515164
+      05-queijo_40: -532770292233801693
+      05-queijo_41: 2586243617033870258
+      05-queijo_42: -9016044398446334382
+      05-queijo_43: 6811272083451840570
+      05-queijo_44: -7726805218577800906
+      05-queijo_45: 9193507977139356340
+      05-queijo_46: -1822965352766848351
+      05-queijo_47: 8971037662322928517
+      05-queijo_48: -5234776361457304088
+      05-queijo_49: 6857386098442324875
+      05-queijo_5: 7085347878179556164
+      05-queijo_50: -5782864521063820665
+      05-queijo_51: 2394195352017430105
+      05-queijo_6: -3047779235235264341
+      05-queijo_7: 6418487353759080130
+      05-queijo_8: 5793263016005669705
+      05-queijo_9: -475492559183444333
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
