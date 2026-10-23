@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e7d64b7ab1b1ed544b2ca97d2798d56d
+guid: 797d72fbdf8420141b96db5c28f3baf0
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -129,10 +129,10 @@ TextureImporter:
       name: "HowAreYou Bot\xE3o_0"
       rect:
         serializedVersion: 2
-        x: 5
-        y: 255
-        width: 1910
-        height: 571
+        x: 0
+        y: 167
+        width: 1672
+        height: 557
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

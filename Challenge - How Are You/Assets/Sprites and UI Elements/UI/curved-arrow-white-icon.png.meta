@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0695d7c11506c554d8151e2fe072aa6f
+guid: e6d880e321dbd7c4ebb11e9e02f1a0ed
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -129,10 +129,10 @@ TextureImporter:
       name: curved-arrow-white-icon_0
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 0
-        width: 504
-        height: 512
+        width: 1254
+        height: 1240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

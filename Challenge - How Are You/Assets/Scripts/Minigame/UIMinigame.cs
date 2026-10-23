@@ -23,11 +23,19 @@ public class UIMinigame : MonoBehaviour
     {
         score = 0;
         time = 120;
-        textOrder1.text = MinigameManager.orderTime[0].ToString();
-        textOrder2.text = MinigameManager.orderTime[1].ToString();
-        textOrder3.text = MinigameManager.orderTime[2].ToString();
-        textOrder4.text = MinigameManager.orderTime[3].ToString();
-        textOrder5.text = MinigameManager.orderTime[4].ToString();
+
+        int order1Time = (int)MinigameManager.orderTime[0];
+        int order2Time = (int)MinigameManager.orderTime[1];
+        int order3Time = (int)MinigameManager.orderTime[2];
+        int order4Time = (int)MinigameManager.orderTime[3];
+        int order5Time = (int)MinigameManager.orderTime[4];
+
+        textOrder1.text = order1Time.ToString();
+        textOrder2.text = order2Time.ToString();
+        textOrder3.text = order3Time.ToString();
+        textOrder4.text = order4Time.ToString();
+        textOrder5.text = order5Time.ToString();
+
         canvasPause.enabled = false;
         StartCoroutine(Timer(1));
         textScore.text = "Pontuação: " + score;
@@ -37,11 +45,18 @@ public class UIMinigame : MonoBehaviour
 
     void Update()
     {
-        textOrder1.text = MinigameManager.orderTime[0].ToString();
-        textOrder2.text = MinigameManager.orderTime[1].ToString();
-        textOrder3.text = MinigameManager.orderTime[2].ToString();
-        textOrder4.text = MinigameManager.orderTime[3].ToString();
-        textOrder5.text = MinigameManager.orderTime[4].ToString();
+        int order1Time = (int)MinigameManager.orderTime[0];
+        int order2Time = (int)MinigameManager.orderTime[1];
+        int order3Time = (int)MinigameManager.orderTime[2];
+        int order4Time = (int)MinigameManager.orderTime[3];
+        int order5Time = (int)MinigameManager.orderTime[4];
+
+        textOrder1.text = order1Time.ToString();
+        textOrder2.text = order2Time.ToString();
+        textOrder3.text = order3Time.ToString();
+        textOrder4.text = order4Time.ToString();
+        textOrder5.text = order5Time.ToString();
+
         textTime.text = "Tempo: " + time;
         textScore.text = "Pontuação: " + score;
         if (time <= 0)
@@ -75,7 +90,7 @@ public class UIMinigame : MonoBehaviour
         canvasConfigurations.enabled = true;
     }
 
-    public void CloseeConfigurations()
+    public void CloseConfigurations()
     {
         canvasConfigurations.enabled = false;
     }

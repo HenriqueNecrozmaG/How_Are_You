@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: be3c6300e2c3fd44596d6585eaa5eafe
+guid: 850dd46d29e3ccb4fb14ecdcf445f352
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -8,6 +8,51 @@ TextureImporter:
   - first:
       213: -7044961637653179021
     second: "HowAreYou Bot\xE3oPausa_1"
+  - first:
+      213: -4269968179648850488
+    second: "HowAreYou Bot\xE3oPausa_2"
+  - first:
+      213: 7122717109327631469
+    second: "HowAreYou Bot\xE3oPausa_3"
+  - first:
+      213: 2532757978839039537
+    second: "HowAreYou Bot\xE3oPausa_4"
+  - first:
+      213: 8365546691134708325
+    second: "HowAreYou Bot\xE3oPausa_5"
+  - first:
+      213: -3260211409631727230
+    second: "HowAreYou Bot\xE3oPausa_6"
+  - first:
+      213: -9198964777731173823
+    second: "HowAreYou Bot\xE3oPausa_7"
+  - first:
+      213: -7612100693409369653
+    second: "HowAreYou Bot\xE3oPausa_8"
+  - first:
+      213: 4392224648301753956
+    second: "HowAreYou Bot\xE3oPausa_9"
+  - first:
+      213: 6167964655376924958
+    second: "HowAreYou Bot\xE3oPausa_10"
+  - first:
+      213: -6436726428788431890
+    second: "HowAreYou Bot\xE3oPausa_11"
+  - first:
+      213: 4061907423495530623
+    second: "HowAreYou Bot\xE3oPausa_12"
+  - first:
+      213: 5968979506784388062
+    second: "HowAreYou Bot\xE3oPausa_13"
+  - first:
+      213: 3020454952319883237
+    second: "HowAreYou Bot\xE3oPausa_14"
+  - first:
+      213: 8907320953965377260
+    second: "HowAreYou Bot\xE3oPausa_15"
+  - first:
+      213: 8378352905196891634
+    second: "HowAreYou Bot\xE3oPausa_16"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -133,9 +178,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 15
-        height: 42
+        y: 9
+        width: 569
+        height: 1186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,10 +199,10 @@ TextureImporter:
       name: "HowAreYou Bot\xE3oPausa_1"
       rect:
         serializedVersion: 2
-        x: 22
-        y: 0
-        width: 14
-        height: 42
+        x: 371
+        y: 1179
+        width: 41
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,6 +213,336 @@ TextureImporter:
       bones: []
       spriteID: 3759d6367b44b3e90800000000000000
       internalID: -7044961637653179021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HowAreYou Bot\xE3oPausa_2"
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 112
+        width: 530
+        height: 1179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c51fc950960eb4c0800000000000000
+      internalID: -4269968179648850488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HowAreYou Bot\xE3oPausa_3"
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1178
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6412112979f8d260800000000000000
+      internalID: 7122717109327631469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HowAreYou Bot\xE3oPausa_4"
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1148
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ebcbe66f9262320800000000000000
+      internalID: 2532757978839039537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HowAreYou Bot\xE3oPausa_5"
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 634
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a570d9464681470800000000000000
+      internalID: 8365546691134708325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HowAreYou Bot\xE3oPausa_6"
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 651
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281b93c0ff661c2d0800000000000000
+      internalID: -3260211409631727230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HowAreYou Bot\xE3oPausa_7"
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 638
+        width: 6
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142d00ad546b65080800000000000000
+      internalID: -9198964777731173823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HowAreYou Bot\xE3oPausa_8"
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 620
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc174deffb26c5690800000000000000
+      internalID: -7612100693409369653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HowAreYou Bot\xE3oPausa_9"
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 557
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466bdbfeb0154fc30800000000000000
+      internalID: 4392224648301753956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HowAreYou Bot\xE3oPausa_10"
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 555
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1108eebc23099550800000000000000
+      internalID: 6167964655376924958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HowAreYou Bot\xE3oPausa_11"
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 557
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee362bf8a672ca6a0800000000000000
+      internalID: -6436726428788431890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HowAreYou Bot\xE3oPausa_12"
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 539
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7829ffd74bce5830800000000000000
+      internalID: 4061907423495530623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HowAreYou Bot\xE3oPausa_13"
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 481
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed348758c3316d250800000000000000
+      internalID: 5968979506784388062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HowAreYou Bot\xE3oPausa_14"
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 128
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7981da6cfcae920800000000000000
+      internalID: 3020454952319883237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HowAreYou Bot\xE3oPausa_15"
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 88
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6ff71f6392d9b70800000000000000
+      internalID: 8907320953965377260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "HowAreYou Bot\xE3oPausa_16"
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 21
+        width: 81
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd6f1da393e54470800000000000000
+      internalID: 8378352905196891634
       vertices: []
       indices: 
       edges: []
@@ -188,6 +563,21 @@ TextureImporter:
     nameFileIdTable:
       "HowAreYou Bot\xE3oPausa_0": -5821029087861227161
       "HowAreYou Bot\xE3oPausa_1": -7044961637653179021
+      "HowAreYou Bot\xE3oPausa_10": 6167964655376924958
+      "HowAreYou Bot\xE3oPausa_11": -6436726428788431890
+      "HowAreYou Bot\xE3oPausa_12": 4061907423495530623
+      "HowAreYou Bot\xE3oPausa_13": 5968979506784388062
+      "HowAreYou Bot\xE3oPausa_14": 3020454952319883237
+      "HowAreYou Bot\xE3oPausa_15": 8907320953965377260
+      "HowAreYou Bot\xE3oPausa_16": 8378352905196891634
+      "HowAreYou Bot\xE3oPausa_2": -4269968179648850488
+      "HowAreYou Bot\xE3oPausa_3": 7122717109327631469
+      "HowAreYou Bot\xE3oPausa_4": 2532757978839039537
+      "HowAreYou Bot\xE3oPausa_5": 8365546691134708325
+      "HowAreYou Bot\xE3oPausa_6": -3260211409631727230
+      "HowAreYou Bot\xE3oPausa_7": -9198964777731173823
+      "HowAreYou Bot\xE3oPausa_8": -7612100693409369653
+      "HowAreYou Bot\xE3oPausa_9": 4392224648301753956
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
